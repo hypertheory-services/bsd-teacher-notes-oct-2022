@@ -24,4 +24,10 @@
     - Throughput - 
     
 - Resiliency
+    Can we keep going (running, handling requests) even when there are failures?
+    - Site Reliability Engineering (SRC), "Chaos Engineering" "Chaos Monkey"
+
+    - "Ports and Adapters" model -> "Attached Resources" from 12FA
+
+# 12 Factor App 
 
