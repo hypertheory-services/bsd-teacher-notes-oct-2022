@@ -31,3 +31,9 @@
 
 # 12 Factor App 
 
+
+
+## Stuff You Should Watch
+
+Jimmy Bogard (Automapper fame) - talking about his experiences at a "fictional" Texas computer company called "Bell Computers"
+https://www.youtube.com/watch?v=gfh-VCTwMw8&themeRefresh=1
