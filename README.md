@@ -2,3 +2,26 @@
 
 > October 2022
 
+## Why Distributed Applications?
+
+- Some just are. Use a web browser?
+- High Availability - 
+- Performance - 
+- Scale 
+- "Social / Team"
+    - Team autonomy.
+
+## Fundamentals Stuff
+
+- Communications (networking)
+- Coordination
+    - Event-Driven Services
+- Scalability
+    - "Load" - anything that consumes system resources
+        - CPU
+        - Memory
+        - Network bandwidth
+    - Throughput - 
+    
+- Resiliency
+
