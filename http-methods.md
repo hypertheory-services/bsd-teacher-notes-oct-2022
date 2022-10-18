@@ -1,5 +1,10 @@
 # Http Methods
 
+## Resource
+
+An important thingy to the user of your API.
+
+
 ## The Core Methods
 
 | Method | Resource Type | Meaning | Safe | Idempotent | Cacheable |
@@ -12,3 +17,13 @@
 | Put | Document (/on-call-developer) | Replace this resource | False | True | False |
 | Delete | Collection (rare) | Remove this | False | True | False |
 | Delete | Document | Remove This | False | True | False |
+
+
+### Another "Resource Oriented" Thing Is SQL
+
+| (SQL) DML |  (HTTP) Methods |
+| --- | ----- |
+| Select | GET | 
+| Insert | POST | 
+| Delete | Delete |
+| Update | PUT (It's Not!) |
