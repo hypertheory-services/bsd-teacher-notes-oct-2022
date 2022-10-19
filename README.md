@@ -32,8 +32,29 @@
 # 12 Factor App 
 
 
+## Service Integration Patterns
 
-## Stuff You Should Watch
+> This is just talking about when you have a bunch of services, how do they communicate with each other.
+
+### The "Best Practices"
+
+- Messaging (Message Queues, Event Brokers, Etc)
+    - Asynchronous Service a sends a message, and some other service will process that message.
+- Remote Procedure Calls (API Calls to other APIs)
+    - Synchronous (service a -> service b, service b -> service a) (request response)
+
+### Anti-Patterns (bad practices)
+
+- Shared Databases
+
+- Shared Libraries
+
+
+
+## Stuff You Should Watch or Read
 
 Jimmy Bogard (Automapper fame) - talking about his experiences at a "fictional" Texas computer company called "Bell Computers"
 https://www.youtube.com/watch?v=gfh-VCTwMw8&themeRefresh=1
+
+### Pat Helland's "Data on the Inside Data on the Outside"
+https://queue.acm.org/detail.cfm?id=3415014
